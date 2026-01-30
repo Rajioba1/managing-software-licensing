@@ -1,6 +1,6 @@
 ---
 name: managing-software-licensing
-description: Expert guidance on software licensing choices, compliance auditing, and dependency obligations. Use when selecting open source licenses, evaluating license compatibility, auditing dependencies for compliance, preparing NOTICE/attribution files, or resolving license conflicts in projects.
+description: Guide on software licensing choices, compliance auditing, and dependency obligations. Use when selecting open source licenses, evaluating license compatibility, auditing dependencies for compliance, preparing NOTICE/attribution files, or resolving license conflicts in projects.
 ---
 
 # Managing Software Licensing
