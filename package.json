@@ -31,7 +31,7 @@
   },
   "main": "index.js",
   "bin": {
-    "licensing-skill": "./bin/cli.js"
+    "licensing-skill": "bin/cli.js"
   },
   "files": [
     "README.md",
