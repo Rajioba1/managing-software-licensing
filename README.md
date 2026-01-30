@@ -404,8 +404,8 @@ Thanks to the open source community for publishing licensing best practices, and
 
 **Version:** 1.5.0
 **Last Updated:** January 30, 2026
-**Author:** [Your Name/GitHub Handle]
-**Repository:** [GitHub URL when published]
+**Author:** Rajioba1
+**Repository:** https://github.com/Rajioba1/managing-software-licensing
 
 ---
 
