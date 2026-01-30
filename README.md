@@ -261,7 +261,7 @@ Apache-2.0 WITH LLVM-exception  # Apache with LLVM exception clause
 ❌ **Patent analysis** - Patents are complex; get professional counsel
 ❌ **Trademark clearance** - Trademarks require separate legal review
 ❌ **Export control** - ITAR/EAR compliance requires specialized counsel
-❌ **Industry-specific regulations** - Medical (FDA), finance (SOX), etc. need domain experts
+❌ **Industry-specific regulations** - Medical (FDA), finance (SOX), etc. need domain specialists
 ❌ **Contract negotiation** - Commercial license agreements need lawyers
 
 ### Scope
@@ -403,7 +403,7 @@ Thanks to the open source community for publishing licensing best practices, and
 ---
 
 **Version:** 1.5.0
-**Last Updated:** January 30, 2026
+**Last Updated:** January 29, 2026
 **Author:** Rajioba1
 **Repository:** https://github.com/Rajioba1/managing-software-licensing
 

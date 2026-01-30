@@ -1,6 +1,6 @@
 ---
 name: managing-software-licensing
-description: Expert guidance on software licensing choices, compliance auditing, and dependency obligations. Use when selecting open source licenses, evaluating license compatibility, auditing dependencies for compliance, preparing NOTICE/attribution files, or resolving license conflicts in projects.
+description: Guide on software licensing choices, compliance auditing, and dependency obligations. Use when selecting open source licenses, evaluating license compatibility, auditing dependencies for compliance, preparing NOTICE/attribution files, or resolving license conflicts in projects.
 ---
 
 # Managing Software Licensing
@@ -138,7 +138,7 @@ Before advising on licensing, gather these details:
 2. **Use SPDX identifier**: e.g., `Apache-2.0`, `MIT`, `GPL-3.0-only`
 3. **Add required files**:
    - `LICENSE` (full text, required)
-   - `NOTICE` (if Apache-2.0, required for attribution)
+   - `NOTICE` (if Apache-2.0 and upstream provides one; ASF policy recommends for new projects)
    - `COPYING` (traditional name for GPL)
 4. **Document rationale**: Optional `LICENSE_DECISION.md` explaining choice
 
@@ -245,9 +245,10 @@ GPL-3.0-only WITH Classpath-exception-2.0  # License with exception
 ### Network Copyleft (AGPL-3.0)
 
 **Key characteristics**:
-- Same as GPL-3.0, plus: network use triggers source disclosure
-- If you modify and deploy as SaaS, users can request source code
-- Designed to close the "SaaS loophole" in GPL
+- Same as GPL-3.0, plus: network use triggers source disclosure when software is modified
+- If you modify and deploy as SaaS, you must offer corresponding source code to network users
+- Using unmodified AGPL software over a network does not trigger Section 13 disclosure obligations
+- Designed to close the "SaaS loophole" in GPL for modified versions
 
 **When to use AGPL**:
 - Cloud/SaaS applications where you want to prevent closed-source forks
@@ -537,7 +538,7 @@ Applications often include **native binaries**, **DLLs**, or **embedded runtimes
 ### Platform-Specific Considerations
 
 **Windows**:
-- **Microsoft VC++ Redistributable** (vcruntime140.dll): Microsoft Software License Terms (permissive, usually no action required if installed via official redistributable)
+- **Microsoft VC++ Redistributable** (vcruntime140.dll): Redistributable under Visual Studio license terms; requires valid Visual Studio license and use of approved files from Redist folder (not debug_nonredist)
 - **WebView2 Runtime**: Microsoft Software License Terms (disclosure recommended)
 
 **Linux**:
@@ -976,7 +977,7 @@ This application uses Microsoft Edge WebView2 Runtime.
 
 | Issue | Impact | Solution |
 |-------|--------|----------|
-| **Missing NOTICE file** | Apache-2.0 violation | Create NOTICE with required attributions |
+| **Missing upstream NOTICE file** | Apache-2.0 violation if upstream provided one | Include NOTICE if provided by upstream dependency |
 | **Stripped copyright headers** | License violation | Restore original headers |
 | **No attribution in binary** | Potential violation | Bundle licenses with distribution |
 
@@ -1290,7 +1291,7 @@ you may not use this file except in compliance with the License.
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.5.0 | 2026-01-30 | Added non-code asset audit (fonts/icons/datasets), bundled binaries audit, third-party services disclosure, OS components, packaging checklist, risk/decision matrix, platform-specific checklists (Electron/Avalonia/WPF), expanded ecosystem coverage (Go/.NET/Java/Ruby/PHP/Swift/C++) |
+| 1.5.0 | 2026-01-29 | Added non-code asset audit (fonts/icons/datasets), bundled binaries audit, third-party services disclosure, OS components, packaging checklist, risk/decision matrix, platform-specific checklists (Electron/Avalonia/WPF), expanded ecosystem coverage (Go/.NET/Java/Ruby/PHP/Swift/C++) |
 | 1.4.0 | 2026-01-29 | Added third-party license + attribution UI templates and multi-license scan guidance |
 | 1.3.1 | 2026-01-29 | Added EULA template usage checklist and SaaS note |
 | 1.3.0 | 2026-01 | Added comprehensive EULA template with EU/CCPA compliance, clickwrap guidance, export control |
