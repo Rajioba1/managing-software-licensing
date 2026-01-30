@@ -355,7 +355,7 @@ Contributions are welcome! If you find errors, outdated information, or want to 
 
 ## Changelog
 
-### v1.5.0 (2026-01-30)
+### v1.5.0 (2026-01-29)
 - ✅ Added non-code asset audit (fonts, icons, images, datasets, ML models)
 - ✅ Added bundled binaries & native libraries audit (DLL/.so/.dylib, embedded runtimes)
 - ✅ Added third-party services & data disclosure (API terms, SaaS, datasets)
