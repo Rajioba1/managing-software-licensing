@@ -35,6 +35,8 @@
   },
   "files": [
     "README.md",
+    "CLAUDE.md",
+    "AGENTS.md",
     "SKILL.md",
     "LICENSE",
     "references/",

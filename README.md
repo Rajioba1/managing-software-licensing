@@ -123,6 +123,46 @@ npm install @rajioba1/managing-software-licensing
 npm install github:Rajioba1/managing-software-licensing
 ```
 
+---
+
+## Use with Codex
+
+**Option A: Copy into Codex skills**
+
+```text
+$CODEX_HOME/skills/managing-software-licensing/
+```
+
+Place this repo folder there so `SKILL.md` is at the root of the skill folder.
+
+**Option B: Install from GitHub (if you use a Codex skill installer)**
+
+```text
+Rajioba1/managing-software-licensing
+```
+
+Then reference the skill by name in your prompt:
+
+```
+Use the managing-software-licensing skill to audit my dependency licenses.
+```
+
+---
+
+## Use with Claude
+
+**Project Knowledge**
+
+Add `SKILL.md` to your Claude Project Knowledge. Then prompt:
+
+```
+Use the managing-software-licensing guide to review my license compliance plan.
+```
+
+**One-off sessions**
+
+Paste the contents of `SKILL.md` into the chat and ask for the specific task.
+
 ### Usage
 
 **Command Line:**
