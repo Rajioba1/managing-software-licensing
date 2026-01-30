@@ -15,7 +15,7 @@ Comprehensive templates for bundling third-party licenses with your software and
 3. Disclaimer of warranty (if applicable)
 
 **Compliance Checklist:**
-- ✅ Include THIRD_PARTY_LICENSES.txt or NOTICE file in all distributions (source and binary)
+- ✅ Include required license texts/notices in all distributions (source and binary); bundling in a single file is recommended
 - ✅ Provide attribution in the software UI **when required** (by license, platform policy, or contract) or as a best practice
 - ✅ UI attribution does **not** replace bundling license texts in your distribution
 - ✅ Preserve copyright notices from source files
@@ -34,7 +34,7 @@ Common naming conventions for bundled license files:
 |-----------|----------|----------|
 | **THIRD_PARTY_LICENSES.txt** | Most common | Full license texts for all dependencies |
 | **THIRD_PARTY_NOTICES.txt** | Alternative | Aggregated copyright and license notices |
-| **NOTICE** | Apache-2.0 projects | Required attribution notices (Apache style) |
+| **NOTICE** | Apache-2.0 projects | Include if upstream NOTICE exists (Apache style) |
 | **LICENSES/** | Directory approach | Separate file per dependency (e.g., `LICENSES/MIT.txt`, `LICENSES/Apache-2.0.txt`) |
 | **OSS_ATTRIBUTION.txt** | Amazon style | Attribution report with license summaries |
 
