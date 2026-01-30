@@ -1,0 +1,18 @@
+# Exclude from npm package
+PUBLISHING_CHECKLIST.md
+.git
+.gitignore
+.DS_Store
+node_modules/
+*.log
+.vscode/
+.idea/
+
+# Keep these
+!README.md
+!SKILL.md
+!LICENSE
+!references/
+!bin/
+!index.js
+!package.json

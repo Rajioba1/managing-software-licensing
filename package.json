@@ -1,0 +1,50 @@
+{
+  "name": "@rajioba1/managing-software-licensing",
+  "version": "1.5.0",
+  "description": "Comprehensive reference guide for managing software licensing compliance - dependency auditing, license compatibility, EULA templates, and third-party attribution",
+  "keywords": [
+    "licensing",
+    "compliance",
+    "open-source",
+    "legal",
+    "eula",
+    "attribution",
+    "third-party-licenses",
+    "spdx",
+    "osi",
+    "gpl",
+    "mit",
+    "apache",
+    "copyleft",
+    "dependency-audit",
+    "license-compatibility"
+  ],
+  "author": "Rajioba1",
+  "license": "MIT",
+  "homepage": "https://github.com/Rajioba1/managing-software-licensing#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajioba1/managing-software-licensing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rajioba1/managing-software-licensing/issues"
+  },
+  "main": "index.js",
+  "bin": {
+    "licensing-skill": "./bin/cli.js"
+  },
+  "files": [
+    "README.md",
+    "SKILL.md",
+    "LICENSE",
+    "references/",
+    "bin/",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
